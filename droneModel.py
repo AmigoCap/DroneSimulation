@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-
+#controler le drone
 
 import time
 import math
