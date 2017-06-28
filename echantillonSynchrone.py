@@ -8,6 +8,8 @@ def distance(point1, point2):
 
 
 def alignerEchantillon(pointsTheoriques, pointsMesures) :
+    #pointsTheoriques : trajectoire avec le moins de points
+    #PointsMesures: trajectoire avec plus de points
     nouvelleSuite=[[],[],[]]
     d=0
     s = distance([pointsMesures[0][0], pointsMesures[1][0], pointsMesures[2][0]],
